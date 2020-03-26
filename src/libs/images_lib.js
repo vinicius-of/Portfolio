@@ -7,11 +7,9 @@ import nodeJsIcon from '../imgs/nodejs-512.png'
 import bsIcon from '../imgs/bootstrap_icon-512.png'
 import sassIcon from '../imgs/sass-256x256.png'
 
-//Introduction component
-import webpageIcon from "../imgs/card-1.png"
-
+// Used by TechnUI
 export function getListTech(){
-    const listTechs = [
+    const list = [
         {
             icon: reactIcon,
             name: "ReactJS",
@@ -42,22 +40,8 @@ export function getListTech(){
         }
     ]
     
-    listTechs.forEach((tech) => {
-        tech.id = listTechs.indexOf(tech)
-    })
-
-    return listTechs
-}
-
-export function getListIntro(){
-    const list = [
-        {img: webpageIcon, description:"You can have a beautiful business landing page that bring views from visitors or clients."},
-        {img: webpageIcon, description:"Do you need a solve a problem? Try to create a WebApp to boost your productivity."},
-        {img: webpageIcon, description:"lorem ispum"}
-    ]
-
-    list.forEach((item) => {
-        item.id = list.indexOf(item)
+    list.forEach((tech) => {
+        tech.id = list.indexOf(tech)
     })
 
     return list

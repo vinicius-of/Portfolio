@@ -1,8 +1,8 @@
 import React from 'react'
-import { getListIntro } from '../libs/images_lib'
+import { getListCards } from '../libs/images_lib'
 
 const IntroCardUI = () => {
-    const cards = getListIntro()
+    const cards = getListCards()
 
     const renderCards = cards.map((card) => {
         if(card){

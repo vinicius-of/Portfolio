@@ -7,7 +7,6 @@ const NavbarUI = () => {
             <nav>
                 <ul className="navbar">
                     <NavLink exact to="/">Introduction</NavLink>
-                    <NavLink to="/portfolio">Portfolio</NavLink>
                     <NavLink to="/technologies">Technologies</NavLink>
                     <NavLink to="/contact">Contact</NavLink>
                     {/* <button className="btn btn-round btn-light">Dark</button> */}

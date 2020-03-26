@@ -1,21 +1,20 @@
 import React from 'react'
-import IntroCardUI from './IntroCardUI'
+import PortfolioUI from './PortfolioUI'
 
-const IntroductionUI = () => {
-
-    return (
-        <div className="introduction">
-            <h1>Introduction</h1>
-            <div className="title animation">
-                <h2>Hi, I'm a developer!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, voluptate repellat ut molestiae obcaecati aut saepe voluptas repudiandae porro, sint qui in et deleniti doloribus ipsum. Culpa asperiores nulla quibusdam.</p>
-                <button className="btn btn-blue">Clique aqui!</button>
+function IntroductionUI(){
+    
+        return (
+            <div className="introduction">
+                <h1>Introduction</h1>
+                <div className="title animation">
+                    <h2>Hi, I'm a Developer!</h2>
+                    <p>Hello, I'm Vinicius. My main techonologies is React (Native for mobile dev), Bootstrap as CSS framework (I can work with SASS) and Node JS (Express JS) for Back-end development. For contact, click below.</p>
+                    <a role="button" className="btn btn-blue" href="/contact">Contact Here!</a>
+                </div>
+                <PortfolioUI />
             </div>
-
-            <IntroCardUI />
-            
-        </div>
-    )
+        )
+    
 }
 
 export default IntroductionUI
